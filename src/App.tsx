@@ -1,7 +1,10 @@
 import React from 'react';
+import './assets/styles/global.scss';
+
+import Router from './Router';
 
 function App() {
-  return <div>Ah sheet, here we go again.</div>;
+  return <Router />;
 }
 
 export default App;
