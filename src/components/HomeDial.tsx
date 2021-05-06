@@ -14,9 +14,31 @@ function HomeDial() {
       className={styles.homeDialContainer}
     >
       <h1>Bem vindo</h1>
-      <div className={styles.spotlightContainer}></div>
+      <div className={styles.spotlightContainer}>
+        <div></div>
+        <div></div>
+      </div>
       <h2>Apps disponíveis:</h2>
-      <div className={styles.appsMenuContainer}></div>
+      <div className={styles.appsMenuContainer}>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </motion.div>
   );
 }
