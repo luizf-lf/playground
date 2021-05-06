@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome } from 'react-icons/fa';
+import { FaHome, FaMousePointer } from 'react-icons/fa';
 
 import styles from '../assets/styles/sidebarMenu.module.scss';
 import { motion } from 'framer-motion';
@@ -10,6 +10,10 @@ const menuItems = [
   {
     link: '/',
     icon: <FaHome />,
+  },
+  {
+    link: '/clicker',
+    icon: <FaMousePointer />,
   },
 ];
 
