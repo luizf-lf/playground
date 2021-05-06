@@ -25,6 +25,14 @@
       }
     }
 
+    &.active {
+      border-left: 3px solid var(--cyan);
+
+      svg {
+        fill: var(--cyan);
+      }
+    }
+
     svg {
       fill: var(--title);
       font-size: 1.5rem;

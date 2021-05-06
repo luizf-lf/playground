@@ -15,7 +15,7 @@ function HomeDial() {
     >
       <h1>Bem vindo</h1>
       <div className={styles.spotlightContainer}></div>
-      <h2>Apps:</h2>
+      <h2>Apps disponíveis:</h2>
       <div className={styles.appsMenuContainer}></div>
     </motion.div>
   );
