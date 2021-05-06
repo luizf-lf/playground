@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
+:root {
+  --bg-gray: #f2f3f5;
+  --white: #fff;
+  --gray-line: #dcdde0;
+  --title: #2e384d;
+  --text: #666666;
+  --cyan: #51c4d3;
+
+  --shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +21,7 @@
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: var(--bg-gray);
 }
 
 button {

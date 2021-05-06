@@ -1,5 +1,5 @@
 .sidebarContainer {
-  background-image: linear-gradient(111.2deg, #595b83 1.7%, #333456 98.7%);
+  background-color: var(--white);
   height: 100vh;
   width: fit-content;
 
@@ -8,28 +8,29 @@
   justify-content: flex-start;
   flex-direction: column;
 
-  box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow);
 
   a {
-    padding: 1rem;
     background-color: rgba(0, 0, 0, 0);
-    border: none;
-
+    border-left: 3px solid #51c4d300;
     cursor: pointer;
 
-    transition: background-color 200ms;
+    transition: 200ms;
 
     &:hover {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
+      border-left: 3px solid var(--cyan);
 
-    &.active {
-      background-color: rgba(0, 0, 0, 0.4);
+      svg {
+        fill: var(--cyan);
+      }
     }
 
     svg {
-      fill: #fff;
-      font-size: 1.25rem;
+      fill: var(--title);
+      font-size: 1.5rem;
+      margin: 1rem;
+
+      transition: fill 200ms;
     }
   }
 }
