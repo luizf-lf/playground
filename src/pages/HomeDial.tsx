@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 import globalContainerVariants from '../utils/globalContainerVariants';
 
-import styles from '../assets/styles/homeDial.module.scss';
+import styles from '../assets/styles/pages/homeDial.module.scss';
 
 function HomeDial() {
   return (

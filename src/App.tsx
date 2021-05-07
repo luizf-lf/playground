@@ -5,7 +5,7 @@ import HomeDial from './pages/HomeDial';
 import Clicker from './pages/Clicker';
 
 import './assets/styles/global.scss';
-import styles from './assets/styles/app.module.scss';
+import styles from './assets/styles/pages/app.module.scss';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
