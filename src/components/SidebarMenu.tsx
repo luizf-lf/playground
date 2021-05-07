@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaMousePointer } from 'react-icons/fa';
+import { RiEqualizerLine, RiInformationLine } from 'react-icons/ri';
 
 import styles from '../assets/styles/components/sidebarMenu.module.scss';
 import { motion } from 'framer-motion';
@@ -14,6 +15,17 @@ const menuItems = [
   {
     link: '/clicker',
     icon: <FaMousePointer />,
+  },
+];
+
+const bottomItems = [
+  {
+    link: '/info',
+    icon: <RiInformationLine />,
+  },
+  {
+    link: '/settings',
+    icon: <RiEqualizerLine />,
   },
 ];
 
@@ -38,9 +50,25 @@ export default function SidebarMenu() {
       animate="visible"
       className={styles.sidebarContainer}
     >
-      {menuItems.map((item) => {
-        return <Link to={item.link}>{item.icon}</Link>;
-      })}
+      <div>
+        {menuItems.map((item) => {
+          return (
+            <Link to={item.link} key={item.link}>
+              {item.icon}
+            </Link>
+          );
+        })}
+      </div>
+
+      <div>
+        {bottomItems.map((item) => {
+          return (
+            <Link to={item.link} key={item.link}>
+              {item.icon}
+            </Link>
+          );
+        })}
+      </div>
     </motion.div>
   );
 }
