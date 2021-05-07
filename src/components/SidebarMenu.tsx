@@ -9,22 +9,22 @@ import { motion } from 'framer-motion';
 // array containing all the menu buttons
 const menuItems = [
   {
-    link: '/',
+    link: '/playground',
     icon: <FaHome />,
   },
   {
-    link: '/clicker',
+    link: '/playground/clicker',
     icon: <FaMousePointer />,
   },
 ];
 
 const bottomItems = [
   {
-    link: '/info',
+    link: '/playground/info',
     icon: <RiInformationLine />,
   },
   {
-    link: '/settings',
+    link: '/playground/settings',
     icon: <RiEqualizerLine />,
   },
 ];

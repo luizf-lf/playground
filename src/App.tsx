@@ -27,7 +27,10 @@ function App() {
             <Route exact path="/">
               <HomeDial />
             </Route>
-            <Route path="/clicker">
+            <Route exact path="/playground">
+              <HomeDial />
+            </Route>
+            <Route path="/playground/clicker">
               <Clicker />
             </Route>
 
