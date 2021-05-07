@@ -5,6 +5,10 @@ import globalContainerVariants from 'src/utils/globalContainerVariants';
 import styles from '../assets/styles/pages/page404.module.scss';
 import ParrotIllustration from '../assets/img/svg/parrot.svg';
 
+/**
+ * 404 Page returned when there's no matching route on the main router.
+ *
+ */
 function Page404() {
   return (
     <motion.div
