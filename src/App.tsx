@@ -1,8 +1,8 @@
 import { Route, Switch, useLocation } from 'react-router-dom';
 
 import SidebarMenu from './components/SidebarMenu';
-import HomeDial from './components/HomeDial';
-import Clicker from './components/Clicker';
+import HomeDial from './pages/HomeDial';
+import Clicker from './pages/Clicker';
 
 import './assets/styles/global.scss';
 import styles from './assets/styles/app.module.scss';
