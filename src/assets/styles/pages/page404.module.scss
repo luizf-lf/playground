@@ -2,16 +2,18 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
-  h1 {
-    margin-bottom: 3rem;
-  }
+  .notFoundText {
+    font-size: 3.5rem;
 
-  h2:last-of-type {
-    margin-bottom: 3rem;
+    b {
+      color: var(--red);
+    }
   }
 
   img {
     height: 26rem;
+    margin: 2rem 0;
   }
 }

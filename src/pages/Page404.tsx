@@ -14,10 +14,12 @@ function Page404() {
       exit="exit"
       className={styles.pageContainer}
     >
-      <h1>404 - Não Encontrado</h1>
-      <h2>O que você procura não está aqui.</h2>
-      <h2>(Ou não foi implementado ainda)</h2>
+      <span className={styles.notFoundText}>
+        <b>404</b> Não Encontrado
+      </span>
       <img src={ParrotIllustration} alt="Parrot" />
+      <h2>O que você procura não está aqui.</h2>
+      <span>(Ou não foi implementado ainda)</span>
     </motion.div>
   );
 }
