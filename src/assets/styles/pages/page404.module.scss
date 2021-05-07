@@ -1,0 +1,17 @@
+.pageContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin-bottom: 3rem;
+  }
+
+  h2:last-of-type {
+    margin-bottom: 3rem;
+  }
+
+  img {
+    height: 26rem;
+  }
+}

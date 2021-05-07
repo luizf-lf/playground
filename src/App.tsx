@@ -1,8 +1,12 @@
 import { Route, Switch, useLocation } from 'react-router-dom';
 
+// components
 import SidebarMenu from './components/SidebarMenu';
+
+// pages
 import HomeDial from './pages/HomeDial';
 import Clicker from './pages/Clicker';
+import Page404 from './pages/Page404';
 
 import './assets/styles/global.scss';
 import styles from './assets/styles/pages/app.module.scss';
@@ -20,11 +24,16 @@ function App() {
       <main>
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.key}>
+            <Route exact path="/">
+              <HomeDial />
+            </Route>
             <Route path="/clicker">
               <Clicker />
             </Route>
-            <Route path="/">
-              <HomeDial />
+
+            {/* Default route */}
+            <Route>
+              <Page404 />
             </Route>
           </Switch>
         </AnimatePresence>
