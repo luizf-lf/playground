@@ -1,0 +1,53 @@
+.pageInfoCard {
+  width: 550px;
+  color: var(--text);
+
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-sm);
+
+  position: absolute;
+
+  bottom: 30px;
+  right: 30px;
+
+  div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 1rem 1rem 0 1rem;
+
+    button {
+      background: var(--red);
+      padding: 0.1rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        fill: var(--white);
+      }
+    }
+  }
+
+  div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem 1rem 1rem;
+
+    span {
+      font-size: 0.9rem;
+    }
+
+    svg {
+      width: 6rem;
+      height: 6rem;
+      margin-right: 1rem;
+
+      fill: var(--text);
+    }
+  }
+}
