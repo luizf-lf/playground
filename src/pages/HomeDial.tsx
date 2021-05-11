@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import globalContainerVariants from '../utils/globalContainerVariants';
 
 import styles from '../assets/styles/pages/homeDial.module.scss';
+import TimeWidget from 'src/components/TimeWidget';
 
 function HomeDial() {
   return (
@@ -16,7 +17,7 @@ function HomeDial() {
       <h1>Bem vindo</h1>
       <div className={styles.spotlightContainer}>
         <div></div>
-        <div></div>
+        <TimeWidget />
       </div>
       <h2>Apps disponíveis:</h2>
       <div className={styles.appsMenuContainer}>
