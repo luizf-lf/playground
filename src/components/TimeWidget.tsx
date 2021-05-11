@@ -66,6 +66,7 @@ function TimeWidget() {
       </section>
     </div>
   );
+  // nice
 }
 
 export default TimeWidget;

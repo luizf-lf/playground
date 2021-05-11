@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+
+  padding: 2rem;
 
   .welcomeMessage {
     color: var(--text);
@@ -11,7 +13,7 @@
     align-items: center;
 
     svg {
-      margin-right: 1rem;
+      margin-right: 0.5rem;
     }
   }
 
