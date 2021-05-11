@@ -2,20 +2,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 
-  .time {
-    font-size: 4rem;
-    font-weight: bold;
-    color: var(--cyan);
+  .welcomeMessage {
+    color: var(--text);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
 
-    .timeSeconds {
-      font-size: 2rem;
-      font-weight: normal;
+    svg {
+      margin-right: 1rem;
     }
   }
-  .date {
-    color: var(--text);
-    font-size: 1.5rem;
+
+  .timeDateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .time {
+      font-size: 4rem;
+      font-weight: bold;
+      color: var(--cyan);
+
+      .timeSeconds {
+        font-size: 2rem;
+        font-weight: normal;
+      }
+    }
+    .date {
+      color: var(--text);
+      font-size: 1.25rem;
+    }
   }
 }
