@@ -15,7 +15,7 @@ function TimeWidget() {
     setTime({ date: new Date() });
   }, 1000);
 
-  if (hours >= 19 && hours < 5) {
+  if (hours >= 19 || hours < 5) {
     welcomeMessage = (
       <>
         <RiMoonLine /> Boa noite
